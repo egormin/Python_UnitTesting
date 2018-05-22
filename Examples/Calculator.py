@@ -18,4 +18,3 @@ def divide(x, y):
     if y == 0:
         raise ValueError("Divizion by zero!")
     return x / y
-
