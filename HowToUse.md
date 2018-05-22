@@ -1,11 +1,14 @@
 ## Python Unit testing
 
+The link to unittest module: `https://docs.python.org/3/library/unittest.html`
+
 If we have the Class with name Calculator we should create the file with name test_Calculator.
 
 `class TestCalc(unittest.TestCase):`
-Here Class namy can by whatever, but the best practice is naming Test+something like testing class name.
 
-Methods should have name `test_`+ what method they test. For example: `test_add'.
+Here Class name can by whatever, but the best practice is naming Test+something like testing class name.
+
+Methods should have name `test_`+ what method they test. For example: `test_add`.
 
 To run tests:
 ```
