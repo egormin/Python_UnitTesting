@@ -28,3 +28,25 @@ or
 python -m coverage run test_Calculator.py
 ```
 to start tests with coverage. Little bit later about it.
+
+
+#### How to run commands
+`python3 -m unittest` run all tests from the folder
+
+`python3 -m unittest -v` with verbose mode 
+
+`python3 -m unittest discover -v -p "test_*"`  find all testswith mask and run with verbose mode
+
+
+## Coverage
+The best way is using tools:
+```
+http://nose.readthedocs.io/en/latest/plugins/cover.html
+```
+```
+https://www.saltycrane.com/blog/2012/04/test-coverage-nose-and-coveragepy/
+```
+and
+```commandline
+https://pypi.org/project/pytest-cov/ 
+```
