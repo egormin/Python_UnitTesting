@@ -50,3 +50,23 @@ and
 ```commandline
 https://pypi.org/project/pytest-cov/ 
 ```
+***For example:***
+`pip uninstall pytest-cov`
+
+```commandline
+py.test --cov-report term-missing --cov=Examples
+```
+- show result in command line
+```commandline
+py.test --cov-report html --cov=Examples
+```
+- get HTML result
+
+To exclude some files from coverage it is necessary to use config file:
+```commandline
+nano .coveragerc
+
+[run]
+omit = Examples/test_*
+```
+
